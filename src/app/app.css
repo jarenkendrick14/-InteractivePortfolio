@@ -3,16 +3,16 @@
   --bg-deep-space: #010409;
   --bg-panel: #0d1117;
   --border-subtle: rgba(139, 148, 158, 0.2);
-  
+
   --text-primary: #c9d1d9;
   --text-secondary: #8b949e;
   --text-bright: #f0f6fc;
-  
+
   --accent-violet: #8250df;
   --accent-cyan: #16c6a5;
   --accent-magenta: #db61a2;
   --glow-violet: rgba(130, 80, 223, 0.4);
-  
+
   --font-main: 'Manrope', sans-serif;
   --transition-speed: 0.3s;
 }
@@ -32,7 +32,7 @@
 body {
   font-family: var(--font-main);
   color: var(--text-primary);
-  
+
   background: linear-gradient(45deg, var(--bg-deep-space), #110f1a, #1c111f, var(--bg-deep-space));
   background-size: 400% 400%;
   animation: cosmic-shift 25s ease infinite;
@@ -159,7 +159,7 @@ ul {
 .main-content {
   flex-grow: 1;
   padding: 40px 50px;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 
 section {
@@ -180,7 +180,7 @@ section {
   background-color: #161b22;
   color: var(--text-secondary);
   padding: 6px 16px;
-  border-radius: 999px; 
+  border-radius: 999px;
   font-size: 0.9rem;
   font-weight: 400;
   border: 1px solid transparent;
